@@ -8,7 +8,8 @@
     <title>Venha conhecer tudo sobre Araguaína!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet"> 
+    
+    <a href="https://www.flaticon.com/free-icons/star" title="star icons"></a><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <style>
 p{
@@ -22,9 +23,6 @@ p{
   text-decoration: underline;
 }
 
-#hospedagem{
-  line-height: 3px;
-}
 
 body {
   background-color: rgb(130, 205, 71);
@@ -46,24 +44,55 @@ a{
 .container22{
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+
+}
+
+.lugar{
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.divtexto{
+padding: 1rem;
+margin: 1rem;
+}
+
+.divfoto{
+  padding: 1rem;
+  margin: 2rem;
+}
+.divfoto img{
+  width: 30rem;
+  height: auto;
 }
 
 .textHospedagem{
-  width: 50%;
   padding: 2rem;
-  margin: 1rem;
+  margin: 3rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.blocoFotos{
-  width: 50%;
+.avaliação{
   display: flex;
-  flex-direction: column;
-  padding: 9rem;
-  border: 6rem;
+  flex-direction: row;
+  align-items: flex-end;
 }
-  
+
+.avaliação img{
+  width: 2rem;
+  height: auto;
+  padding: 0.3rem;
+  filter: brightness(0%); 
+}
+
+.avaliação img:hover{
+  filter: brightness(100%); 
+}
+
 .tituloHospedagem{
   margin-bottom: 1.5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -168,40 +197,93 @@ h1{
       </nav>
       
       <div class="container22" >
-        <div class="blocoFotos">
-        <img src=vialago.jpg id="fotovialago" alt="">
-        <img src=vialago.jpg id="fotovialago2" alt="">
-        <img src=vialago.jpg id="fotovialago3" alt="">
-        <img src=vialago.jpg id="fotovialago4" alt="">
-      </div>
         <div class="textHospedagem" id="inicio"> 
          <h1 class="tituloHospedagem">Conheça os melhores locais para se hospedar em Araguaína</h1>
-          <p>Se você quer conhecer Araguaína mas não pelo o que começar, acrescente a culinária na sua lista. Afinal, 
-          existe diferentes tipos de etnias e diversos tipos de gastronomia. São diferentes locais para comer em 
-          Araguaína que a gente fica até sem saber em qual ir primeiro. Tem comida para todos os gostos e bolsos, 
-          que vão desde a clássica pizza italiana do Mirante, até o famoso o chambari do Mercado Municipal de Araguaína</p>  
+          <p>Se você quer conhecer Araguaína mas não pelo o que começar, acrescente a culinária na sua lista. Afinal, existe diferentes tipos de etnias e diversos tipos de gastronomia. São diferentes locais para comer em Araguaína que a gente fica até sem saber em qual ir primeiro. Tem comida para todos os gostos e bolsos, que vão desde a clássica pizza italiana do Mirante, até o famoso o chambari do Mercado Municipal de Araguaína</p>  
           <p>Veja agora os melhores locais para se comer em Araguaína.</p>
-          <div class="topicos" id="hospedagem">
-          <p><a href="#arabe" rel="next">Árabe</a></p>
-          <p><a href="#hamburguer" rel="next">Hambúrguer</a></p>
-          <p><a href="#pizza" rel="next">Pizza</a></p>
-          <p><a href="#carnes" rel="next">Churrascaria</a></p>
-          <p><a href="#japonesa" rel="next">Japonesa</a></p>
-          <p><a href="#bar" rel="next">Bares e petiscos</a></p>
-          <p><a href="#restaurante" rel="next">Restaurante</a></p>
+          
+        </div>
+          <div class="lugar">
+            <div class="divfoto">
+              <img src="vialago.jpg" alt="">
+            </div>
+            <div class="divtexto">
+              <h4>Barão shawarma food</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eum eos tempora molestiae ab magni architecto possimus earum sapiente vero consequuntur, ex a? Temporibus tempora incidunt, ab iste at quod?</p> 
+          <div class="avaliação">
+<img src="star.png" alt="">
+<img src="star.png" alt="">
+<img src="star.png" alt="">
+<img src="star.png" alt="">
+<img src="star.png" alt="">
           </div>
-          <h4>Barão shawarma food</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eum eos tempora molestiae ab magni architecto possimus earum sapiente vero consequuntur, ex a? Temporibus tempora incidunt, ab iste at quod?</p> 
+            </div>
+            </div>
+          <div class="lugar">
+            <div class="divfoto">
+              <img src="vialago.jpg" alt="">
+            </div>
+            <div class="divtexto">
           <h4>Subway</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eum eos tempora molestiae ab magni architecto possimus earum sapiente vero consequuntur, ex a? Temporibus tempora incidunt, ab iste at quod?</p> 
+          <div class="avaliação">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+                      </div>
+        </div>
+          </div>
+          <div class="lugar">
+            <div class="divfoto">
+              <img src="vialago.jpg" alt="">
+            </div>
+          
+            <div class="divtexto">
           <h4>Burguer King</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eum eos tempora molestiae ab magni architecto possimus earum sapiente vero consequuntur, ex a? Temporibus tempora incidunt, ab iste at quod?</p> 
-          <h4>Chestburguer</h4>
+          <div class="avaliação">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+                      </div>
+        </div>
+          </div>
+          <div class="lugar">
+            <div class="divfoto">
+              <img src="vialago.jpg" alt="">
+            </div>
+            <div class="divtexto">
+            <h4>Chestburguer</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eum eos tempora molestiae ab magni architecto possimus earum sapiente vero consequuntur, ex a? Temporibus tempora incidunt, ab iste at quod?</p> 
-          <h4>Xzão do Zé</h4>
+          <div class="avaliação">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+                      </div>
+        </div>
+          </div>
+          <div class="lugar">
+            <div class="divfoto">
+              <img src="vialago.jpg" alt="">
+            </div>
+            <div class="divtexto">
+            <h4>Xzão do Zé</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eum eos tempora molestiae ab magni architecto possimus earum sapiente vero consequuntur, ex a? Temporibus tempora incidunt, ab iste at quod?</p>  
-      </div>
-      
+          <div class="avaliação">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+            <img src="star.png" alt="">
+                      </div>
+        </div> 
+          </div>    
     </div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
